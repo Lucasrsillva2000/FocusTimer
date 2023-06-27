@@ -5,8 +5,8 @@ import Events from './events.js'
 import {
   buttonPlay,
   buttonPause,
-  buttonPlus,
-  buttonMinor,
+  buttonSet,
+  buttonStop,
   minutesDisplay,
   secondsDisplay
 } from './elements.js'
@@ -14,8 +14,8 @@ import {
 const controls = Controls({
   buttonPause,
   buttonPlay,
-  buttonPlus,
-  buttonMinor
+  buttonSet,
+  buttonStop
 })
 
 const timer = Timer({
